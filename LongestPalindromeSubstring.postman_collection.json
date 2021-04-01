@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "fcb7dc24-cc23-4042-bef5-5070000810a8",
+		"name": "LongestPalindromeSubstring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SaveLongestPalindromeSubstring",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/string/savePalindrome?inputString=abaccab",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"string",
+						"savePalindrome"
+					],
+					"query": [
+						{
+							"key": "inputString",
+							"value": "abaccab"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllStringAndPalindrome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/string/getAllStringAndPalindrome",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"string",
+						"getAllStringAndPalindrome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPalindromeOfString",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/string/getPalindromeOfString?inputString=geeks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"string",
+						"getPalindromeOfString"
+					],
+					"query": [
+						{
+							"key": "inputString",
+							"value": "geeks"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
